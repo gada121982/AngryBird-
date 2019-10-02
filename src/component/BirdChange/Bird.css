@@ -1,0 +1,33 @@
+
+.Bird{
+
+    display: flex; 
+    flex-direction: column ; 
+    align-items: center;
+    background-color:  rgb(233, 227, 227); 
+    width: 70%; 
+    height: 80vh; 
+    margin : 0 auto ; 
+
+}
+.Bird img{
+    margin-top: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+.Bird .button-wrapp{
+
+    margin-top: 10%; 
+    display: flex; 
+    flex-direction: row ;
+    justify-content: center ;
+    width: 20%; 
+    height: 5%; 
+   
+    
+}
+.button-wrapp .left , .right{
+    margin:0 10%;
+    width: 40%;
+}
